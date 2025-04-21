@@ -3,7 +3,7 @@ from tkinter import ttk
 import heapq
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-
+# TO make a task:
 class Task:
     def _init_(self, pid, burst, priority):
         self.pid, self.burst, self.priority = pid, burst, priority
